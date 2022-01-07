@@ -31,7 +31,7 @@ def main_func():
             continue
         if hint == 1:
             minimum = guess
-            i += 1 # computer's tries counter increased
+            i += 1 # computer's tries' counter increased
         elif hint == 2:
             maximum = guess
             i += 1
@@ -42,4 +42,6 @@ def main_func():
         print("You are cheating!") # displayed when counter hits 10
 
 
-main_func()
+if __name__ == '__main__':
+    main_func()
+
